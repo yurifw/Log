@@ -2,7 +2,7 @@ create database custom_log;
 use custom_log;
 create table visita(
 	id int auto_increment primary key,
-	hour time,
+	hour datetime,
 	file varchar(100),
 	ip varchar(15),
 	languages varchar(100),
